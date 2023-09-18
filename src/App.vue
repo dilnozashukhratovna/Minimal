@@ -1,30 +1,24 @@
 <template>
-    <nav>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-    </nav>
-    <router-view />
+    <Header />
+    <Main />
+    <Process />
+    <Projects />
+    <Team />
 </template>
 
-<style lang="scss">
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-}
-
-nav {
-    padding: 30px;
-
-    a {
-        font-weight: bold;
-        color: #2c3e50;
-
-        &.router-link-exact-active {
-            color: #42b983;
-        }
-    }
+<style lang="scss" scoped>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 </style>
+
+<script setup>
+import Header from "./components/Header.vue";
+import Main from "./components/Main.vue";
+import Process from "./components/Process.vue";
+import Projects from "./components/Projects.vue";
+import Team from "./components/Team.vue";
+</script>
