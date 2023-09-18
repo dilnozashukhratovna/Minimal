@@ -4,6 +4,7 @@
     <Process />
     <Projects />
     <Team />
+    <Comments />
 </template>
 
 <style lang="scss" scoped>
@@ -21,4 +22,5 @@ import Main from "./components/Main.vue";
 import Process from "./components/Process.vue";
 import Projects from "./components/Projects.vue";
 import Team from "./components/Team.vue";
+import Comments from "./components/Comments.vue";
 </script>
