@@ -6,6 +6,7 @@
     <Team />
     <Comments />
     <Contact />
+    <Footer />
 </template>
 
 <style lang="scss" scoped>
@@ -25,4 +26,5 @@ import Projects from "./components/Projects.vue";
 import Team from "./components/Team.vue";
 import Comments from "./components/Comments.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 </script>
