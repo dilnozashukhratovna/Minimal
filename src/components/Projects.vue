@@ -47,17 +47,14 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <img src="../assets/images/IMAGE9.png" alt="project7" />
+                        <img src="../assets/images/IMAGE8.png" alt="project7" />
                         <div class="project-card-body">
                             <h3>town</h3>
                             <p>Website</p>
                         </div>
                     </div>
                     <div class="project-card">
-                        <img
-                            src="../assets/images/IMAGE10.png"
-                            alt="project8"
-                        />
+                        <img src="../assets/images/IMAGE9.png" alt="project8" />
                         <div class="project-card-body">
                             <h3>mountain</h3>
                             <p>Website</p>
@@ -65,7 +62,7 @@
                     </div>
                     <div class="project-card">
                         <img
-                            src="../assets/images/IMAGE11.png"
+                            src="../assets/images/IMAGE10.png"
                             alt="project9"
                         />
                         <div class="project-card-body">
